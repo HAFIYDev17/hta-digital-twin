@@ -1,0 +1,262 @@
+[
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": -101.689,
+    "y": -3898.467,
+    "label_proche": "{\\H1.208x;15CRT}",
+    "label_distance": 45.8,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": -101.689,
+    "y": -3979.302,
+    "label_proche": "T",
+    "label_distance": 21.8,
+    "commande_detectee": "T",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": -2971.418,
+    "y": -4031.314,
+    "label_proche": "R",
+    "label_distance": 32.4,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": -2971.418,
+    "y": -3950.478,
+    "label_proche": "R",
+    "label_distance": 62.7,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": 278.62,
+    "y": -3889.723,
+    "label_proche": "{\\H1.208x;13CRT}",
+    "label_distance": 45.8,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "x": 278.62,
+    "y": -3970.559,
+    "label_proche": "R",
+    "label_distance": 23.0,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "CHICONI",
+    "x": -3167.621,
+    "y": -1258.988,
+    "label_proche": "4G",
+    "label_distance": 32.8,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": -347.429,
+    "y": -7299.769,
+    "label_proche": "R",
+    "label_distance": 46.5,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": -766.36,
+    "y": -7313.962,
+    "label_proche": "T",
+    "label_distance": 34.9,
+    "commande_detectee": "T",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": 310.568,
+    "y": -7310.149,
+    "label_proche": "R",
+    "label_distance": 39.4,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": -1456.299,
+    "y": -7308.46,
+    "label_proche": "T",
+    "label_distance": 43.3,
+    "commande_detectee": "T",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": -2038.675,
+    "y": -7298.433,
+    "label_proche": "T",
+    "label_distance": 43.3,
+    "commande_detectee": "T",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "KANI_KELI",
+    "x": -2544.035,
+    "y": -7299.492,
+    "label_proche": "T",
+    "label_distance": 43.3,
+    "commande_detectee": "T",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "MAKI",
+    "x": -1968.873,
+    "y": -6305.218,
+    "label_proche": "{\\H1.208x;01CIT}",
+    "label_distance": 65.7,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "MAKI",
+    "x": -3488.992,
+    "y": -6305.401,
+    "label_proche": "{\\H1.208x;03OUR}",
+    "label_distance": 80.8,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "CAVANI",
+    "x": 2367.132,
+    "y": 554.76,
+    "label_proche": "157",
+    "label_distance": 25.3,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "DZAOUDZI",
+    "x": 3087.16,
+    "y": 760.622,
+    "label_proche": "{\\H1.208x;01DAR}",
+    "label_distance": 6.1,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "KAWENI_1",
+    "x": 2455.511,
+    "y": 1101.727,
+    "label_proche": "{\\H1.208x;07KUR}",
+    "label_distance": 8.4,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "KAWENI_1",
+    "x": 2321.419,
+    "y": 1060.418,
+    "label_proche": "{\\H1.208x;17KUR}",
+    "label_distance": 6.0,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "KAWENI_2",
+    "x": 2332.656,
+    "y": 1135.761,
+    "label_proche": "{\\H1.208x;12KUT}",
+    "label_distance": 11.2,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "LUKIDA",
+    "x": 2489.599,
+    "y": 1010.837,
+    "label_proche": "{\\H1.208x;24MAR}",
+    "label_distance": 4.9,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "MAMOUDZOU",
+    "x": 2284.473,
+    "y": 685.618,
+    "label_proche": "R",
+    "label_distance": 2.2,
+    "commande_detectee": "R",
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "MANGROVE",
+    "x": 2297.837,
+    "y": 811.11,
+    "label_proche": "MAR01",
+    "label_distance": 12.8,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "PASSAMAINTY",
+    "x": 2312.95,
+    "y": 480.626,
+    "label_proche": "25MAR",
+    "label_distance": 11.5,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "SUD",
+    "x": 2328.425,
+    "y": 337.09,
+    "label_proche": "14DET",
+    "label_distance": 4.2,
+    "commande_detectee": null,
+    "_a_verifier": false
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "SUD",
+    "x": 2573.49,
+    "y": 126.74,
+    "label_proche": "01BLT",
+    "label_distance": 4.9,
+    "commande_detectee": null,
+    "_a_verifier": false
+  }
+]

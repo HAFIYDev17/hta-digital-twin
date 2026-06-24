@@ -1,0 +1,18 @@
+# Node
+node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+
+# Env
+.env
+backend/.env
+
+# Editeur / OS
+.DS_Store
+.vscode/*.log
+frontend/tsconfig.tsbuildinfo

@@ -1,0 +1,20 @@
+{
+  "folders": [
+    { "name": "backend", "path": "backend" },
+    { "name": "frontend", "path": "frontend" },
+    { "name": "database", "path": "database" },
+    { "name": "tools (extraction DXF)", "path": "tools" },
+    { "name": "docs", "path": "docs" }
+  ],
+  "settings": {
+    "files.exclude": { "**/__pycache__": true, "**/node_modules": true }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "dbaeumer.vscode-eslint",
+      "mtxr.sqltools",
+      "mtxr.sqltools-driver-pg"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "numero": "90003",
+    "depart_attribut": "MAKI",
+    "depart_layer": "YLANG",
+    "layer": "YLANG_POSTE"
+  },
+  {
+    "numero": "41000",
+    "depart_attribut": "OUANGANI",
+    "depart_layer": "PASSAMAINTY",
+    "layer": "PASSAMAINTY_POSTE"
+  },
+  {
+    "numero": "83002",
+    "depart_attribut": "MAKI",
+    "depart_layer": "YLANG",
+    "layer": "YLANG_POSTE"
+  },
+  {
+    "numero": "83001",
+    "depart_attribut": "MAKI",
+    "depart_layer": "YLANG",
+    "layer": "YLANG_POSTE"
+  },
+  {
+    "numero": "06008",
+    "depart_attribut": "SOULOU",
+    "depart_layer": "CHIRONGUI",
+    "layer": "CHIRONGUI_POSTE"
+  },
+  {
+    "numero": "06011",
+    "depart_attribut": "SOULOU",
+    "depart_layer": "CHIRONGUI",
+    "layer": "CHIRONGUI_POSTE"
+  },
+  {
+    "numero": "96000",
+    "depart_attribut": "KAHANI",
+    "depart_layer": "SOULOU",
+    "layer": "SOULOU_POSTE"
+  },
+  {
+    "numero": "68001",
+    "depart_attribut": "YLANG",
+    "depart_layer": "PASSAMAINTY",
+    "layer": "PASSAMAINTY_POSTE"
+  },
+  {
+    "numero": "66068",
+    "depart_attribut": "ZI",
+    "depart_layer": "LUKIDA",
+    "layer": "LUKIDA_POSTE"
+  },
+  {
+    "numero": "66065",
+    "depart_attribut": "ZI",
+    "depart_layer": "LUKIDA",
+    "layer": "LUKIDA_POSTE"
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "CARTOUCHE",
+    "x": -4772.818,
+    "y": -7631.427,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "cadenas_exploitation",
+    "block_name": "CADENAS_EXPLOITATION",
+    "layer": "CARTOUCHE",
+    "x": -4791.19,
+    "y": -7670.046,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -5090.645,
+    "y": -7819.705,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 11224.871,
+    "y": -3010.767,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 11224.871,
+    "y": -3035.29,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": 11224.871,
+    "y": -3059.812,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -4940.126,
+    "y": -7908.428,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 165.5,
+    "y": -1250.0,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 19200.067,
+    "y": -6887.138,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 17975.121,
+    "y": -6886.836,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -1379.5,
+    "y": -1647.5,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -1726.592,
+    "y": -1240.4,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 17134.928,
+    "y": -6883.968,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 19063.115,
+    "y": -8427.72,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19237.205,
+    "y": 2793.911,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19450.889,
+    "y": 2791.91,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -1150.913,
+    "y": -2907.715,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -20888.651,
+    "y": 2791.509,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -22341.224,
+    "y": 2793.491,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -4075.956,
+    "y": -2833.124,
+    "rotation_deg": 0.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -2574.435,
+    "y": -2960.093,
+    "rotation_deg": 271.67,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -23022.827,
+    "y": 1664.527,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -24271.0,
+    "y": 1664.591,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -6170.451,
+    "y": -3967.087,
+    "rotation_deg": 0.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -1037.051,
+    "y": -5650.2,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19953.099,
+    "y": -134.77,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": -22246.8,
+    "y": -10961.987,
+    "rotation_deg": 180.19,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -3735.654,
+    "y": -5104.685,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -18949.359,
+    "y": -701.35,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19980.718,
+    "y": -699.59,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19713.746,
+    "y": -701.418,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3630.514,
+    "y": -6332.416,
+    "rotation_deg": 0.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -19942.425,
+    "y": -1709.752,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 4327.973,
+    "y": 11538.03,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -1829.991,
+    "y": -7346.147,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -22519.225,
+    "y": -1707.869,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3756.429,
+    "y": -7294.385,
+    "rotation_deg": 180.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -325.742,
+    "y": -4612.106,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -1590.716,
+    "y": -5844.65,
+    "rotation_deg": 180.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3245.261,
+    "y": -1301.103,
+    "rotation_deg": 0.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3831.239,
+    "y": -5160.603,
+    "rotation_deg": 359.67,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "SADA",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3957.103,
+    "y": -5295.239,
+    "rotation_deg": 270.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "CARTOUCHE",
+    "x": -6361.586,
+    "y": -7102.952,
+    "rotation_deg": 90.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "cadenas_exploitation",
+    "block_name": "CADENAS_EXPLOITATION",
+    "layer": "CARTOUCHE",
+    "x": -6379.887,
+    "y": -7141.604,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -6679.066,
+    "y": -7291.814,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 9627.575,
+    "y": -2452.867,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 9627.62,
+    "y": -2477.389,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": 9627.665,
+    "y": -2501.911,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -6528.384,
+    "y": -7380.26,
+    "rotation_deg": 0.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -3791.176,
+    "y": -929.152,
+    "rotation_deg": 0.72,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -818.443,
+    "y": -3925.561,
+    "rotation_deg": 1.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 98.178,
+    "y": -2466.933,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -1136.121,
+    "y": -2462.156,
+    "rotation_deg": 180.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -5074.224,
+    "y": -3310.298,
+    "rotation_deg": 2.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": -43342.775,
+    "y": -17300.835,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": -24804.639,
+    "y": -10810.815,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -44610.174,
+    "y": -17398.69,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -45838.264,
+    "y": -17398.679,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -46292.297,
+    "y": -17397.729,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -4124.605,
+    "y": -3570.03,
+    "rotation_deg": 2.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -5645.702,
+    "y": -3173.768,
+    "rotation_deg": 2.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -47475.12,
+    "y": -17410.993,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -48337.692,
+    "y": -17394.086,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -48812.394,
+    "y": -17401.55,
+    "rotation_deg": 182.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 7291.842,
+    "y": -45843.476,
+    "rotation_deg": 272.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -7028.968,
+    "y": -3574.279,
+    "rotation_deg": 268.46,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -42282.603,
+    "y": -17457.343,
+    "rotation_deg": 181.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -43332.927,
+    "y": -17460.054,
+    "rotation_deg": 181.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -1281.535,
+    "y": -3964.601,
+    "rotation_deg": 1.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -44748.131,
+    "y": -17459.652,
+    "rotation_deg": 181.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -45258.281,
+    "y": -17455.28,
+    "rotation_deg": 181.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -2264.99,
+    "y": -3943.782,
+    "rotation_deg": 1.16,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -2992.457,
+    "y": -3886.841,
+    "rotation_deg": 181.49,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": 401.127,
+    "y": -4532.148,
+    "rotation_deg": 0.79,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": 575.942,
+    "y": -4605.837,
+    "rotation_deg": 89.74,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": 26.841,
+    "y": -6880.613,
+    "rotation_deg": 90.11,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -43439.337,
+    "y": -19339.515,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -835.797,
+    "y": -6677.304,
+    "rotation_deg": 357.82,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -1368.554,
+    "y": -6683.94,
+    "rotation_deg": 357.82,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": -3312.876,
+    "y": -7032.985,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -46667.599,
+    "y": -19339.511,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -5202.384,
+    "y": -6673.589,
+    "rotation_deg": 0.33,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -45210.119,
+    "y": -18550.744,
+    "rotation_deg": 180.65,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 39740.783,
+    "y": 8117.028,
+    "rotation_deg": 1.08,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 10100.023,
+    "y": -48517.386,
+    "rotation_deg": 270.69,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 41161.7,
+    "y": 7711.143,
+    "rotation_deg": 1.08,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -1456.73,
+    "y": -5911.549,
+    "rotation_deg": 270.66,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 39021.364,
+    "y": 8119.717,
+    "rotation_deg": 1.08,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -4075.561,
+    "y": -5821.993,
+    "rotation_deg": 358.47,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -4320.823,
+    "y": -5999.489,
+    "rotation_deg": 90.4,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": 155.038,
+    "y": -7833.884,
+    "rotation_deg": 90.63,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": -323.56,
+    "y": -7714.057,
+    "rotation_deg": 358.34,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 42387.383,
+    "y": 5656.184,
+    "rotation_deg": 0.95,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": -44961.845,
+    "y": 4175.392,
+    "rotation_deg": 0.7,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -3414.059,
+    "y": -7717.705,
+    "rotation_deg": 181.14,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -179.22,
+    "y": -1132.943,
+    "rotation_deg": 269.95,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": 3.062,
+    "y": -1663.216,
+    "rotation_deg": 1.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "LONGONI",
+    "kind": "point_ouverture",
+    "block_name": "COUPURE",
+    "layer": "COUPURE",
+    "x": -7624.238,
+    "y": -3089.292,
+    "rotation_deg": 182.3,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2365.8,
+    "y": 897.66,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2471.013,
+    "y": 528.486,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2479.498,
+    "y": 655.767,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2500.413,
+    "y": 858.213,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2334.724,
+    "y": 773.052,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2396.059,
+    "y": 704.157,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2423.432,
+    "y": 704.193,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1350.826,
+    "y": 4071.459,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -986.37,
+    "y": -279.775,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2569.414,
+    "y": 662.056,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2487.109,
+    "y": 866.523,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2317.561,
+    "y": 262.636,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2359.791,
+    "y": 722.175,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2482.321,
+    "y": 842.975,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2625.002,
+    "y": 1001.954,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2614.995,
+    "y": 1002.294,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2414.171,
+    "y": 599.757,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2499.541,
+    "y": 668.259,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2362.555,
+    "y": 736.064,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2327.285,
+    "y": 645.758,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -228.216,
+    "y": -424.742,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1963.93,
+    "y": 3889.324,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 6447.437,
+    "y": 1746.629,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6236.137,
+    "y": 1708.029,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3869.329,
+    "y": -2751.115,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5923.385,
+    "y": 1654.794,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5789.908,
+    "y": 1656.678,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5746.094,
+    "y": 1654.713,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3323.027,
+    "y": -2710.827,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3323.027,
+    "y": -2764.125,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1433.529,
+    "y": 4139.436,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5988.567,
+    "y": 1985.623,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2374.177,
+    "y": 704.157,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2546.92,
+    "y": 999.601,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2539.256,
+    "y": 169.149,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2525.022,
+    "y": 1032.008,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5741.724,
+    "y": 1700.232,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1536.441,
+    "y": 4045.371,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 4038.721,
+    "y": -2780.246,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1588.109,
+    "y": 4078.202,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1982.541,
+    "y": 3962.979,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6410.115,
+    "y": 1673.988,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6437.814,
+    "y": 1673.988,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6487.4,
+    "y": 1522.006,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1333.451,
+    "y": 3629.592,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 5944.918,
+    "y": 1985.786,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 5960.11,
+    "y": 1985.914,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 3618.558,
+    "y": -2349.032,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 5661.501,
+    "y": 1469.509,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -994.337,
+    "y": -602.82,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": -1011.584,
+    "y": -667.702,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3313.582,
+    "y": -3047.096,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5768.995,
+    "y": 1700.232,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3506.182,
+    "y": -2793.071,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 5810.718,
+    "y": 1610.387,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3419.44,
+    "y": -2739.868,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 5675.247,
+    "y": 1601.07,
+    "rotation_deg": 359.88,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5805.579,
+    "y": 1536.927,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6397.878,
+    "y": 1746.629,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 2041.196,
+    "y": 3964.99,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5633.235,
+    "y": 1639.446,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1442.005,
+    "y": -2842.14,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1061.267,
+    "y": -722.68,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6237.899,
+    "y": 1693.037,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3869.329,
+    "y": -2714.315,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 2041.196,
+    "y": 3945.334,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 6242.976,
+    "y": 1498.428,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1958.398,
+    "y": 3959.152,
+    "rotation_deg": 88.83,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5815.837,
+    "y": 1860.859,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1506.739,
+    "y": 4212.046,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1533.651,
+    "y": 4232.263,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -836.731,
+    "y": -138.175,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -924.61,
+    "y": -170.324,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1433.365,
+    "y": 4122.084,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -905.335,
+    "y": -248.935,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3416.331,
+    "y": -2623.167,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1019.989,
+    "y": -208.834,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1350.994,
+    "y": 4151.082,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5954.112,
+    "y": 1654.794,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -937.27,
+    "y": -393.843,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3506.182,
+    "y": -2752.301,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 1526.132,
+    "y": 3966.781,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1343.682,
+    "y": 3915.796,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": -818.925,
+    "y": -457.871,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_AMPER",
+    "x": 3290.48,
+    "y": -2825.722,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1059.31,
+    "y": -522.269,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1039.474,
+    "y": -550.698,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1005.757,
+    "y": -585.658,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -999.856,
+    "y": 1393.93,
+    "rotation_deg": 360.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1003.424,
+    "y": 1382.66,
+    "rotation_deg": 360.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3558.839,
+    "y": -3111.803,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3558.839,
+    "y": -3123.278,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3581.292,
+    "y": -3148.064,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -776.673,
+    "y": -777.812,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1556.419,
+    "y": 3544.259,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5915.214,
+    "y": 1175.277,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 1579.02,
+    "y": 3485.846,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5935.646,
+    "y": 1097.044,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5958.923,
+    "y": 1097.044,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 5981.387,
+    "y": 1097.044,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 1504.388,
+    "y": -2295.94,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT_HS",
+    "x": 1504.032,
+    "y": 4441.576,
+    "rotation_deg": 90.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3521.543,
+    "y": -2329.413,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": 3404.138,
+    "y": -2502.775,
+    "rotation_deg": 270.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2454.018,
+    "y": 755.091,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2242.083,
+    "y": 479.583,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2589.327,
+    "y": 178.664,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2451.66,
+    "y": 735.356,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2544.569,
+    "y": 204.203,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2975.81,
+    "y": 629.238,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2907.351,
+    "y": 666.16,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2993.619,
+    "y": 610.757,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2907.351,
+    "y": 684.562,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2907.351,
+    "y": 648.024,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2418.246,
+    "y": 750.162,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2959.167,
+    "y": 527.767,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "client_mhrv",
+    "block_name": "Drapeau_MHRV",
+    "layer": "CLIENT_MHRV",
+    "x": 2670.229,
+    "y": 154.088,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2407.15,
+    "y": 825.989,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2574.877,
+    "y": 1051.784,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 3040.2,
+    "y": 760.219,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2528.088,
+    "y": 1074.588,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2576.423,
+    "y": 999.338,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2425.186,
+    "y": 668.37,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2605.722,
+    "y": 992.519,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2977.837,
+    "y": 635.883,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2891.993,
+    "y": 654.214,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2891.993,
+    "y": 637.081,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 3031.478,
+    "y": 653.36,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2899.256,
+    "y": 713.506,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2959.711,
+    "y": 547.084,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 3066.649,
+    "y": 543.745,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2965.658,
+    "y": 595.669,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 2651.207,
+    "y": 1035.409,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -1007.483,
+    "y": -734.312,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "ild",
+    "block_name": "ILD_SOUT",
+    "layer": "ILD_SOUT",
+    "x": -929.35,
+    "y": -734.076,
+    "rotation_deg": 180.0,
+    "etat_suspecte": null
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "kind": "producteur_pv",
+    "block_name": "Prod_Photo",
+    "layer": "PROD_PHOTOVOLTAIQUE",
+    "x": 3109.706,
+    "y": 438.892,
+    "rotation_deg": 0.0,
+    "etat_suspecte": null
+  }
+]

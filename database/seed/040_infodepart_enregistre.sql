@@ -1,0 +1,32 @@
+-- Genere depuis data/extracted/infodepart.json (bloc INFODEPART / bilan des
+-- puissances installees, lu tel quel dans le DWG au 30/07/2025).
+
+INSERT INTO infodepart_enregistre (poste_source, depart_brut, puissance_enregistree_kva) VALUES
+  ('SADA', 'KANIKELI', 8730.0),
+  ('SADA', 'CHIRONGUI', 7650.0),
+  ('SADA', 'CHICONI', 12930.0),
+  ('SADA', 'OUANGANI', 13590.0),
+  ('SADA', 'MAKI', 8460.0),
+  ('SADA', 'BOUENI', 14940.0),
+  ('LONGONI', 'KAWENI1', 14.0),
+  ('LONGONI', 'PORT', 6.0),
+  ('LONGONI', 'SOULOU', 23.0),
+  ('LONGONI', 'VALLEE3', 11.0),
+  ('LONGONI', 'KAWENI2', 1400.0),
+  ('LONGONI', 'KANGANI', 29.0),
+  ('LONGONI', 'YLANG', 11.0),
+  ('LONGONI', 'SOLAIRE', 1250.0),
+  ('LONGONI', 'KAHANI', 22.0),
+  ('LONGONI', 'BANDRABOUA', 17.0),
+  ('KAWENI_BADAMIER', 'DZAOUDZI', 11940.0),
+  ('KAWENI_BADAMIER', 'PAMANDZI', 18140.0),
+  ('KAWENI_BADAMIER', 'LUKIDA', 13980.0),
+  ('KAWENI_BADAMIER', 'SUD', 17490.0),
+  ('KAWENI_BADAMIER', 'PASSAMAINTY', 16150.0),
+  ('KAWENI_BADAMIER', 'ZI', 19490.0),
+  ('KAWENI_BADAMIER', 'MANGROVE', 7010.0),
+  ('KAWENI_BADAMIER', 'LONGONI1', 0.0),
+  ('KAWENI_BADAMIER', 'LONGONI2', 0.0),
+  ('KAWENI_BADAMIER', 'MAMOUDZOU', 13620.0),
+  ('KAWENI_BADAMIER', 'CAVANI', 16100.0),
+  ('KAWENI_BADAMIER', 'LAFERME', 7180.0);

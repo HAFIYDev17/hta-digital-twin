@@ -1,0 +1,142 @@
+[
+  {
+    "poste_source": "SADA",
+    "depart": "KANIKELI",
+    "puissance_enregistree_kva": 8730.0
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "CHIRONGUI",
+    "puissance_enregistree_kva": 7650.0
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "CHICONI",
+    "puissance_enregistree_kva": 12930.0
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "OUANGANI",
+    "puissance_enregistree_kva": 13590.0
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "MAKI",
+    "puissance_enregistree_kva": 8460.0
+  },
+  {
+    "poste_source": "SADA",
+    "depart": "BOUENI",
+    "puissance_enregistree_kva": 14940.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "KAWENI1",
+    "puissance_enregistree_kva": 14.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "PORT",
+    "puissance_enregistree_kva": 6.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "SOULOU",
+    "puissance_enregistree_kva": 23.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "VALLEE3",
+    "puissance_enregistree_kva": 11.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "KAWENI2",
+    "puissance_enregistree_kva": 1400.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "KANGANI",
+    "puissance_enregistree_kva": 29.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "YLANG",
+    "puissance_enregistree_kva": 11.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "SOLAIRE",
+    "puissance_enregistree_kva": 1250.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "KAHANI",
+    "puissance_enregistree_kva": 22.0
+  },
+  {
+    "poste_source": "LONGONI",
+    "depart": "BANDRABOUA",
+    "puissance_enregistree_kva": 17.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "DZAOUDZI",
+    "puissance_enregistree_kva": 11940.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "PAMANDZI",
+    "puissance_enregistree_kva": 18140.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "LUKIDA",
+    "puissance_enregistree_kva": 13980.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "SUD",
+    "puissance_enregistree_kva": 17490.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "PASSAMAINTY",
+    "puissance_enregistree_kva": 16150.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "ZI",
+    "puissance_enregistree_kva": 19490.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "MANGROVE",
+    "puissance_enregistree_kva": 7010.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "LONGONI1",
+    "puissance_enregistree_kva": 0.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "LONGONI2",
+    "puissance_enregistree_kva": 0.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "MAMOUDZOU",
+    "puissance_enregistree_kva": 13620.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "CAVANI",
+    "puissance_enregistree_kva": 16100.0
+  },
+  {
+    "poste_source": "KAWENI_BADAMIER",
+    "depart": "LAFERME",
+    "puissance_enregistree_kva": 7180.0
+  }
+]
