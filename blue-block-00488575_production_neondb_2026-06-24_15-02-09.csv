@@ -1,0 +1,1202 @@
+"table_name","column_name","data_type","is_nullable","column_default","rls_enabled","policyname","action","roles","using_expression","check_expression","foreign_table","foreign_column"
+"anomalie","date_detection","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"anomalie","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"anomalie","niveau","character varying","NO","'WARNING'::character varying","f",,,,,,"poste","id"
+"anomalie","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"anomalie","resolue","boolean","NO","false","f",,,,,,"poste","id"
+"anomalie","type_anomalie","character varying","NO",,"f",,,,,,"poste","id"
+"anomalie","valeur_attendue","text","YES",,"f",,,,,,"poste","id"
+"anomalie","valeur_source","text","YES",,"f",,,,,,"poste","id"
+"bouclage","actif","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"bouclage","actif","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"bouclage","actif","boolean","NO","false","f",,,,,,"omt","id"
+"bouclage","actif","boolean","NO","false","f",,,,,,"point_ouverture","id"
+"bouclage","actif","boolean","NO","false","f",,,,,,"poste","id"
+"bouclage","actif","boolean","NO","false","f",,,,,,"poste","id"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"point_ouverture","id"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"poste","id"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"poste","id"
+"bouclage","confirme_par_pdf","boolean","NO","false","f",,,,,,"omt","id"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","depart_a","character varying","YES",,"f",,,,,,"omt","id"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"omt","id"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","depart_b","character varying","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"omt","id"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"point_ouverture","id"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"bouclage","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"omt","id"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","omt_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","point_contact","character varying","YES",,"f",,,,,,"omt","id"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","point_ouverture_id","uuid","YES",,"f",,,,,,"omt","id"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"omt","id"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","poste_a_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"omt","id"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"poste","id"
+"bouclage","poste_b_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","remarque","text","YES",,"f",,,,,,"poste","id"
+"bouclage","remarque","text","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","remarque","text","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","remarque","text","YES",,"f",,,,,,"omt","id"
+"bouclage","remarque","text","YES",,"f",,,,,,"poste","id"
+"bouclage","remarque","text","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"referentiel_depart","code"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"point_ouverture","id"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"omt","id"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"poste","id"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"poste","id"
+"bouclage","statut_exploitation","character varying","YES","'NORMAL_OUVERT'::character varying","f",,,,,,"referentiel_depart","code"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"point_ouverture","id"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"poste","id"
+"bouclage","type_bouclage","character varying","YES",,"f",,,,,,"omt","id"
+"cable","courant_a","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","courant_a","numeric","YES",,"f",,,,,,"poste_source","code"
+"cable","courant_a","numeric","YES",,"f",,,,,,"poste","id"
+"cable","courant_a","numeric","YES",,"f",,,,,,"poste","id"
+"cable","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"cable","depart","character varying","YES",,"f",,,,,,"poste","id"
+"cable","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","depart","character varying","YES",,"f",,,,,,"poste","id"
+"cable","etat","character varying","YES","'EN_SERVICE'::character varying","f",,,,,,"poste_source","code"
+"cable","etat","character varying","YES","'EN_SERVICE'::character varying","f",,,,,,"referentiel_depart","code"
+"cable","etat","character varying","YES","'EN_SERVICE'::character varying","f",,,,,,"poste","id"
+"cable","etat","character varying","YES","'EN_SERVICE'::character varying","f",,,,,,"poste","id"
+"cable","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"cable","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"cable","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"cable","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"cable","longueur_m","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","longueur_m","numeric","YES",,"f",,,,,,"poste","id"
+"cable","longueur_m","numeric","YES",,"f",,,,,,"poste","id"
+"cable","longueur_m","numeric","YES",,"f",,,,,,"poste_source","code"
+"cable","nature","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","nature","character varying","YES",,"f",,,,,,"poste","id"
+"cable","nature","character varying","YES",,"f",,,,,,"poste","id"
+"cable","nature","character varying","YES",,"f",,,,,,"poste_source","code"
+"cable","poste_amont","uuid","YES",,"f",,,,,,"poste","id"
+"cable","poste_amont","uuid","YES",,"f",,,,,,"poste","id"
+"cable","poste_amont","uuid","YES",,"f",,,,,,"poste_source","code"
+"cable","poste_amont","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","poste_aval","uuid","YES",,"f",,,,,,"poste","id"
+"cable","poste_aval","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"cable","poste_aval","uuid","YES",,"f",,,,,,"poste_source","code"
+"cable","poste_aval","uuid","YES",,"f",,,,,,"poste","id"
+"cable","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"cable","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"cable","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"cable","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"cable","section_mm2","integer","YES",,"f",,,,,,"poste_source","code"
+"cable","section_mm2","integer","YES",,"f",,,,,,"poste","id"
+"cable","section_mm2","integer","YES",,"f",,,,,,"poste","id"
+"cable","section_mm2","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"cumul_depart","date_calcul","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"cumul_depart","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"cumul_depart","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"cumul_depart","nb_clients","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"cumul_depart","nb_postes","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"cumul_depart","puissance_kva","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","bout_bouclage","boolean","NO","false","f",,,,,,"poste_source","code"
+"depart_topologie","bout_bouclage","boolean","NO","false","f",,,,,,"poste","id"
+"depart_topologie","bout_bouclage","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"depart_topologie","bout_bouclage","boolean","NO","false","f",,,,,,"poste","id"
+"depart_topologie","commentaire","text","YES",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","commentaire","text","YES",,"f",,,,,,"poste","id"
+"depart_topologie","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"depart_topologie","commentaire","text","YES",,"f",,,,,,"poste","id"
+"depart_topologie","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"depart_topologie","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"depart_topologie","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"depart_topologie","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"depart_topologie","depart","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","depart","character varying","NO",,"f",,,,,,"poste","id"
+"depart_topologie","depart","character varying","NO",,"f",,,,,,"poste","id"
+"depart_topologie","depart","character varying","NO",,"f",,,,,,"poste_source","code"
+"depart_topologie","extremite_reseau","boolean","NO","false","f",,,,,,"poste","id"
+"depart_topologie","extremite_reseau","boolean","NO","false","f",,,,,,"poste","id"
+"depart_topologie","extremite_reseau","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"depart_topologie","extremite_reseau","boolean","NO","false","f",,,,,,"poste_source","code"
+"depart_topologie","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"depart_topologie","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"depart_topologie","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"depart_topologie","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"depart_topologie","nature_lien","character varying","NO","'TRONC'::character varying","f",,,,,,"poste","id"
+"depart_topologie","nature_lien","character varying","NO","'TRONC'::character varying","f",,,,,,"referentiel_depart","code"
+"depart_topologie","nature_lien","character varying","NO","'TRONC'::character varying","f",,,,,,"poste_source","code"
+"depart_topologie","nature_lien","character varying","NO","'TRONC'::character varying","f",,,,,,"poste","id"
+"depart_topologie","niveau_branche","integer","NO","0","f",,,,,,"referentiel_depart","code"
+"depart_topologie","niveau_branche","integer","NO","0","f",,,,,,"poste","id"
+"depart_topologie","niveau_branche","integer","NO","0","f",,,,,,"poste","id"
+"depart_topologie","niveau_branche","integer","NO","0","f",,,,,,"poste_source","code"
+"depart_topologie","ordre_principal","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","ordre_principal","integer","YES",,"f",,,,,,"poste_source","code"
+"depart_topologie","ordre_principal","integer","YES",,"f",,,,,,"poste","id"
+"depart_topologie","ordre_principal","integer","YES",,"f",,,,,,"poste","id"
+"depart_topologie","origine_validation","character varying","NO","'PDF'::character varying","f",,,,,,"poste","id"
+"depart_topologie","origine_validation","character varying","NO","'PDF'::character varying","f",,,,,,"referentiel_depart","code"
+"depart_topologie","origine_validation","character varying","NO","'PDF'::character varying","f",,,,,,"poste_source","code"
+"depart_topologie","origine_validation","character varying","NO","'PDF'::character varying","f",,,,,,"poste","id"
+"depart_topologie","parent_poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"depart_topologie","parent_poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"depart_topologie","parent_poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"depart_topologie","parent_poste_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","poste_id","uuid","NO",,"f",,,,,,"poste","id"
+"depart_topologie","poste_id","uuid","NO",,"f",,,,,,"poste_source","code"
+"depart_topologie","poste_id","uuid","NO",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","poste_id","uuid","NO",,"f",,,,,,"poste","id"
+"depart_topologie","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"depart_topologie","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"depart_topologie","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"depart_topologie","rang_branche","integer","YES",,"f",,,,,,"poste","id"
+"depart_topologie","rang_branche","integer","YES",,"f",,,,,,"poste","id"
+"depart_topologie","rang_branche","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"depart_topologie","rang_branche","integer","YES",,"f",,,,,,"poste_source","code"
+"depart_topologie","updated_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"depart_topologie","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"depart_topologie","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"depart_topologie","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"depart_topologie","validation_statut","character varying","NO","'AUTO'::character varying","f",,,,,,"referentiel_depart","code"
+"depart_topologie","validation_statut","character varying","NO","'AUTO'::character varying","f",,,,,,"poste","id"
+"depart_topologie","validation_statut","character varying","NO","'AUTO'::character varying","f",,,,,,"poste","id"
+"depart_topologie","validation_statut","character varying","NO","'AUTO'::character varying","f",,,,,,"poste_source","code"
+"document","chemin","text","YES",,"f",,,,,,"poste","id"
+"document","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"document","nom","character varying","YES",,"f",,,,,,"poste","id"
+"document","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"document","type","character varying","YES",,"f",,,,,,"poste","id"
+"document_marche","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"document_marche","commentaire","text","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"document_marche","created_at","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"document_marche","date_document","date","YES",,"f",,,,,,"poste_source","code"
+"document_marche","date_document","date","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"document_marche","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"document_marche","poste_source","character varying","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","poste_source","character varying","YES",,"f",,,,,,"poste_source","code"
+"document_marche","redacteur_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"document_marche","redacteur_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","reference_document","character varying","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","reference_document","character varying","YES",,"f",,,,,,"poste_source","code"
+"document_marche","statut_document","character varying","NO","'BROUILLON'::character varying","f",,,,,,"utilisateur","id"
+"document_marche","statut_document","character varying","NO","'BROUILLON'::character varying","f",,,,,,"poste_source","code"
+"document_marche","titre","character varying","NO",,"f",,,,,,"utilisateur","id"
+"document_marche","titre","character varying","NO",,"f",,,,,,"poste_source","code"
+"document_marche","type_document","character varying","NO",,"f",,,,,,"poste_source","code"
+"document_marche","type_document","character varying","NO",,"f",,,,,,"utilisateur","id"
+"document_marche","url_document","text","YES",,"f",,,,,,"poste_source","code"
+"document_marche","url_document","text","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","version_doc","character varying","YES",,"f",,,,,,"utilisateur","id"
+"document_marche","version_doc","character varying","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","commentaire","text","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","commentaire","text","YES",,"f",,,,,,"poste","id"
+"fibre_segment","commentaire","text","YES",,"f",,,,,,"poste","id"
+"fibre_segment","coordonnees","jsonb","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","coordonnees","jsonb","YES",,"f",,,,,,"poste","id"
+"fibre_segment","coordonnees","jsonb","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","coordonnees","jsonb","YES",,"f",,,,,,"poste","id"
+"fibre_segment","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"fibre_segment","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"fibre_segment","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"fibre_segment","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"fibre_segment","date_pose","date","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","date_pose","date","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","date_pose","date","YES",,"f",,,,,,"poste","id"
+"fibre_segment","date_pose","date","YES",,"f",,,,,,"poste","id"
+"fibre_segment","depart","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","depart","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"fibre_segment","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"fibre_segment","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"fibre_segment","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"fibre_segment","longueur_m","numeric","YES",,"f",,,,,,"poste","id"
+"fibre_segment","longueur_m","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","longueur_m","numeric","YES",,"f",,,,,,"poste","id"
+"fibre_segment","longueur_m","numeric","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","nb_fibres","smallint","NO","6","f",,,,,,"poste_source","code"
+"fibre_segment","nb_fibres","smallint","NO","6","f",,,,,,"referentiel_depart","code"
+"fibre_segment","nb_fibres","smallint","NO","6","f",,,,,,"poste","id"
+"fibre_segment","nb_fibres","smallint","NO","6","f",,,,,,"poste","id"
+"fibre_segment","nom","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","nom","character varying","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","nom","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","nom","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","poste_amont_id","uuid","YES",,"f",,,,,,"poste","id"
+"fibre_segment","poste_amont_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","poste_amont_id","uuid","YES",,"f",,,,,,"poste","id"
+"fibre_segment","poste_amont_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","poste_aval_id","uuid","YES",,"f",,,,,,"poste","id"
+"fibre_segment","poste_aval_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","poste_aval_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","poste_aval_id","uuid","YES",,"f",,,,,,"poste","id"
+"fibre_segment","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"fibre_segment","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"fibre_segment","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"fibre_segment","prestataire","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","prestataire","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","prestataire","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","prestataire","character varying","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","ref_chantier","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"fibre_segment","ref_chantier","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","ref_chantier","character varying","YES",,"f",,,,,,"poste_source","code"
+"fibre_segment","ref_chantier","character varying","YES",,"f",,,,,,"poste","id"
+"fibre_segment","statut","character varying","NO","'PREVU'::character varying","f",,,,,,"poste_source","code"
+"fibre_segment","statut","character varying","NO","'PREVU'::character varying","f",,,,,,"referentiel_depart","code"
+"fibre_segment","statut","character varying","NO","'PREVU'::character varying","f",,,,,,"poste","id"
+"fibre_segment","statut","character varying","NO","'PREVU'::character varying","f",,,,,,"poste","id"
+"fibre_segment","troncon_test","boolean","NO","false","f",,,,,,"poste","id"
+"fibre_segment","troncon_test","boolean","NO","false","f",,,,,,"poste","id"
+"fibre_segment","troncon_test","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"fibre_segment","troncon_test","boolean","NO","false","f",,,,,,"poste_source","code"
+"fibre_segment","type_pose","character varying","NO","'SOUTERRAIN'::character varying","f",,,,,,"referentiel_depart","code"
+"fibre_segment","type_pose","character varying","NO","'SOUTERRAIN'::character varying","f",,,,,,"poste","id"
+"fibre_segment","type_pose","character varying","NO","'SOUTERRAIN'::character varying","f",,,,,,"poste","id"
+"fibre_segment","type_pose","character varying","NO","'SOUTERRAIN'::character varying","f",,,,,,"poste_source","code"
+"fibre_segment","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"fibre_segment","updated_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"fibre_segment","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"fibre_segment","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"fo_interface","adresse_ip","inet","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"fo_interface","date_commande","date","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","date_mise_en_service","date","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"fo_interface","marque","character varying","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","modele","character varying","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","nb_ports_eth","smallint","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","nb_ports_fo","smallint","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"fo_interface","protocoles","ARRAY","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","ref_marche","character varying","YES",,"f",,,,,,"poste_source","code"
+"fo_interface","statut","character varying","NO","'COMMANDE'::character varying","f",,,,,,"poste_source","code"
+"fo_interface","type_equipement","character varying","NO",,"f",,,,,,"poste_source","code"
+"ild","derniere_maintenance","date","YES",,"f",,,,,,"poste_source","code"
+"ild","derniere_maintenance","date","YES",,"f",,,,,,"poste","id"
+"ild","etat","character varying","NO","'A_VERIFIER'::character varying","f",,,,,,"poste_source","code"
+"ild","etat","character varying","NO","'A_VERIFIER'::character varying","f",,,,,,"poste","id"
+"ild","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"ild","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"ild","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"ild","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"ild","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"ild","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"ild","type","character varying","YES","'SOUTERRAIN'::character varying","f",,,,,,"poste_source","code"
+"ild","type","character varying","YES","'SOUTERRAIN'::character varying","f",,,,,,"poste","id"
+"ild","x","numeric","YES",,"f",,,,,,"poste_source","code"
+"ild","x","numeric","YES",,"f",,,,,,"poste","id"
+"ild","y","numeric","YES",,"f",,,,,,"poste","id"
+"ild","y","numeric","YES",,"f",,,,,,"poste_source","code"
+"ild_historique","ancien_etat","character varying","YES",,"f",,,,,,"ild","id"
+"ild_historique","date_evenement","timestamp with time zone","NO","now()","f",,,,,,"ild","id"
+"ild_historique","id","uuid","NO","gen_random_uuid()","f",,,,,,"ild","id"
+"ild_historique","ild_id","uuid","YES",,"f",,,,,,"ild","id"
+"ild_historique","nouvel_etat","character varying","YES",,"f",,,,,,"ild","id"
+"incident","commentaire","text","YES",,"f",,,,,,"poste","id"
+"incident","date_incident","timestamp with time zone","YES",,"f",,,,,,"poste","id"
+"incident","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"incident","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"incident","statut","character varying","YES","'OUVERT'::character varying","f",,,,,,"poste","id"
+"incident","type_incident","character varying","YES",,"f",,,,,,"poste","id"
+"infodepart_enregistre","depart_brut","character varying","NO",,"f",,,,,,"poste_source","code"
+"infodepart_enregistre","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"infodepart_enregistre","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"infodepart_enregistre","puissance_enregistree_kva","numeric","YES",,"f",,,,,,"poste_source","code"
+"infodepart_enregistre","source","character varying","YES","'DWG_30072025'::character varying","f",,,,,,"poste_source","code"
+"jalon_projet","avancement_pct","numeric","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","avancement_pct","numeric","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","categorie","character varying","NO",,"f",,,,,,"poste_source","code"
+"jalon_projet","categorie","character varying","NO",,"f",,,,,,"utilisateur","id"
+"jalon_projet","commentaire","text","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","created_at","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"jalon_projet","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"jalon_projet","date_prevue","date","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","date_prevue","date","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","date_realisee","date","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","date_realisee","date","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"jalon_projet","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"jalon_projet","libelle","character varying","NO",,"f",,,,,,"poste_source","code"
+"jalon_projet","libelle","character varying","NO",,"f",,,,,,"utilisateur","id"
+"jalon_projet","poste_source","character varying","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","poste_source","character varying","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","responsable_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"jalon_projet","responsable_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"jalon_projet","statut","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"poste_source","code"
+"jalon_projet","statut","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"utilisateur","id"
+"manoeuvre","commande","character varying","YES",,"f",,,,,,"poste","id"
+"manoeuvre","commande","character varying","YES",,"f",,,,,,"rm6","id"
+"manoeuvre","etat","character varying","NO","'FERME'::character varying","f",,,,,,"poste","id"
+"manoeuvre","etat","character varying","NO","'FERME'::character varying","f",,,,,,"rm6","id"
+"manoeuvre","id","uuid","NO","gen_random_uuid()","f",,,,,,"rm6","id"
+"manoeuvre","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"manoeuvre","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"manoeuvre","poste_id","uuid","YES",,"f",,,,,,"rm6","id"
+"manoeuvre","rm6_id","uuid","YES",,"f",,,,,,"rm6","id"
+"manoeuvre","rm6_id","uuid","YES",,"f",,,,,,"poste","id"
+"manoeuvre","type","character varying","YES",,"f",,,,,,"rm6","id"
+"manoeuvre","type","character varying","YES",,"f",,,,,,"poste","id"
+"manoeuvre_historique","ancien_etat","character varying","YES",,"f",,,,,,"manoeuvre","id"
+"manoeuvre_historique","date_action","timestamp with time zone","NO","now()","f",,,,,,"manoeuvre","id"
+"manoeuvre_historique","id","uuid","NO","gen_random_uuid()","f",,,,,,"manoeuvre","id"
+"manoeuvre_historique","manoeuvre_id","uuid","YES",,"f",,,,,,"manoeuvre","id"
+"manoeuvre_historique","nouvel_etat","character varying","YES",,"f",,,,,,"manoeuvre","id"
+"manoeuvre_historique","utilisateur","character varying","YES",,"f",,,,,,"manoeuvre","id"
+"omt","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"omt","commentaire","text","YES",,"f",,,,,,"ild","id"
+"omt","commentaire","text","YES",,"f",,,,,,"fibre_segment","id"
+"omt","commentaire","text","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","commentaire","text","YES",,"f",,,,,,"rm6","id"
+"omt","commentaire","text","YES",,"f",,,,,,"poste","id"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"fibre_segment","id"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"ild","id"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"rm6","id"
+"omt","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"poste_source","code"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"ild","id"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"fibre_segment","id"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"rm6","id"
+"omt","date_mise_en_service","date","YES",,"f",,,,,,"poste","id"
+"omt","depart","character varying","YES",,"f",,,,,,"ild","id"
+"omt","depart","character varying","YES",,"f",,,,,,"rm6","id"
+"omt","depart","character varying","YES",,"f",,,,,,"poste","id"
+"omt","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"omt","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","depart","character varying","YES",,"f",,,,,,"fibre_segment","id"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"poste_source","code"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"ild","id"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"fibre_segment","id"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"rm6","id"
+"omt","derniere_com","timestamp with time zone","YES",,"f",,,,,,"poste","id"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"rm6","id"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"ild","id"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"poste_source","code"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"poste","id"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"fibre_segment","id"
+"omt","etat_manoeuvre","character varying","NO","'INCONNU'::character varying","f",,,,,,"referentiel_depart","code"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"poste","id"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"ild","id"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"fibre_segment","id"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"referentiel_depart","code"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"rm6","id"
+"omt","etat_telecom","character varying","NO","'INJOIGNABLE'::character varying","f",,,,,,"poste_source","code"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"ild","id"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"poste","id"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"rm6","id"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","fibre_segment_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"ild","id"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"rm6","id"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"omt","id","uuid","NO","gen_random_uuid()","f",,,,,,"fibre_segment","id"
+"omt","ild_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"omt","ild_id","uuid","YES",,"f",,,,,,"poste","id"
+"omt","ild_id","uuid","YES",,"f",,,,,,"rm6","id"
+"omt","ild_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","ild_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"omt","ild_id","uuid","YES",,"f",,,,,,"ild","id"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"fibre_segment","id"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"rm6","id"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"poste_source","code"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"poste","id"
+"omt","ild_integre","boolean","NO","false","f",,,,,,"ild","id"
+"omt","ip_ied","inet","YES",,"f",,,,,,"poste","id"
+"omt","ip_ied","inet","YES",,"f",,,,,,"poste_source","code"
+"omt","ip_ied","inet","YES",,"f",,,,,,"rm6","id"
+"omt","ip_ied","inet","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","ip_ied","inet","YES",,"f",,,,,,"fibre_segment","id"
+"omt","ip_ied","inet","YES",,"f",,,,,,"ild","id"
+"omt","marque","character varying","YES",,"f",,,,,,"poste","id"
+"omt","marque","character varying","YES",,"f",,,,,,"poste_source","code"
+"omt","marque","character varying","YES",,"f",,,,,,"rm6","id"
+"omt","marque","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","marque","character varying","YES",,"f",,,,,,"fibre_segment","id"
+"omt","marque","character varying","YES",,"f",,,,,,"ild","id"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"fibre_segment","id"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"ild","id"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"poste_source","code"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"poste","id"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"rm6","id"
+"omt","medium_comm","character varying","NO","'4G'::character varying","f",,,,,,"referentiel_depart","code"
+"omt","modele","character varying","YES",,"f",,,,,,"poste_source","code"
+"omt","modele","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","modele","character varying","YES",,"f",,,,,,"rm6","id"
+"omt","modele","character varying","YES",,"f",,,,,,"poste","id"
+"omt","modele","character varying","YES",,"f",,,,,,"fibre_segment","id"
+"omt","modele","character varying","YES",,"f",,,,,,"ild","id"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"rm6","id"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"ild","id"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"fibre_segment","id"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"referentiel_depart","code"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"poste_source","code"
+"omt","nb_manoeuvres","integer","NO","0","f",,,,,,"poste","id"
+"omt","num_ied","character varying","YES",,"f",,,,,,"ild","id"
+"omt","num_ied","character varying","YES",,"f",,,,,,"poste_source","code"
+"omt","num_ied","character varying","YES",,"f",,,,,,"poste","id"
+"omt","num_ied","character varying","YES",,"f",,,,,,"rm6","id"
+"omt","num_ied","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","num_ied","character varying","YES",,"f",,,,,,"fibre_segment","id"
+"omt","omt_test","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"omt","omt_test","boolean","NO","false","f",,,,,,"poste_source","code"
+"omt","omt_test","boolean","NO","false","f",,,,,,"poste","id"
+"omt","omt_test","boolean","NO","false","f",,,,,,"rm6","id"
+"omt","omt_test","boolean","NO","false","f",,,,,,"fibre_segment","id"
+"omt","omt_test","boolean","NO","false","f",,,,,,"ild","id"
+"omt","port_ied","integer","NO","2404","f",,,,,,"rm6","id"
+"omt","port_ied","integer","NO","2404","f",,,,,,"referentiel_depart","code"
+"omt","port_ied","integer","NO","2404","f",,,,,,"fibre_segment","id"
+"omt","port_ied","integer","NO","2404","f",,,,,,"ild","id"
+"omt","port_ied","integer","NO","2404","f",,,,,,"poste","id"
+"omt","port_ied","integer","NO","2404","f",,,,,,"poste_source","code"
+"omt","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"omt","poste_id","uuid","YES",,"f",,,,,,"ild","id"
+"omt","poste_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"omt","poste_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","poste_id","uuid","YES",,"f",,,,,,"rm6","id"
+"omt","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"omt","poste_source","character varying","NO",,"f",,,,,,"ild","id"
+"omt","poste_source","character varying","NO",,"f",,,,,,"rm6","id"
+"omt","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"omt","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"omt","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"omt","poste_source","character varying","NO",,"f",,,,,,"fibre_segment","id"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"poste","id"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"ild","id"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"fibre_segment","id"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"referentiel_depart","code"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"rm6","id"
+"omt","protocole","character varying","NO","'IEC60870-5-104'::character varying","f",,,,,,"poste_source","code"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"ild","id"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"rm6","id"
+"omt","rm6_id","uuid","YES",,"f",,,,,,"poste","id"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"ild","id"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"poste","id"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"rm6","id"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"poste_source","code"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"referentiel_depart","code"
+"omt","type_organe","character varying","NO","'XSWI'::character varying","f",,,,,,"fibre_segment","id"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"rm6","id"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"ild","id"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"omt","updated_at","timestamp with time zone","NO","now()","f",,,,,,"fibre_segment","id"
+"omt_historique","commentaire","text","YES",,"f",,,,,,"utilisateur","id"
+"omt_historique","commentaire","text","YES",,"f",,,,,,"omt","id"
+"omt_historique","etat_apres","character varying","YES",,"f",,,,,,"utilisateur","id"
+"omt_historique","etat_apres","character varying","YES",,"f",,,,,,"omt","id"
+"omt_historique","etat_avant","character varying","YES",,"f",,,,,,"omt","id"
+"omt_historique","etat_avant","character varying","YES",,"f",,,,,,"utilisateur","id"
+"omt_historique","horodatage","timestamp with time zone","NO","now()","f",,,,,,"omt","id"
+"omt_historique","horodatage","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"omt_historique","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"omt_historique","id","uuid","NO","gen_random_uuid()","f",,,,,,"omt","id"
+"omt_historique","omt_id","uuid","NO",,"f",,,,,,"utilisateur","id"
+"omt_historique","omt_id","uuid","NO",,"f",,,,,,"omt","id"
+"omt_historique","operateur_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"omt_historique","operateur_id","uuid","YES",,"f",,,,,,"omt","id"
+"omt_historique","source","character varying","NO","'SCADA'::character varying","f",,,,,,"omt","id"
+"omt_historique","source","character varying","NO","'SCADA'::character varying","f",,,,,,"utilisateur","id"
+"omt_historique","type_event","character varying","NO",,"f",,,,,,"utilisateur","id"
+"omt_historique","type_event","character varying","NO",,"f",,,,,,"omt","id"
+"point_ouverture","etat","character varying","NO","'FERME'::character varying","f",,,,,,"poste_source","code"
+"point_ouverture","etat","character varying","NO","'FERME'::character varying","f",,,,,,"poste","id"
+"point_ouverture","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"point_ouverture","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"point_ouverture","nom","character varying","YES",,"f",,,,,,"poste_source","code"
+"point_ouverture","nom","character varying","YES",,"f",,,,,,"poste","id"
+"point_ouverture","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"point_ouverture","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"point_ouverture","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"point_ouverture","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"point_ouverture","remarque","text","YES",,"f",,,,,,"poste","id"
+"point_ouverture","remarque","text","YES",,"f",,,,,,"poste_source","code"
+"point_ouverture","x","numeric","YES",,"f",,,,,,"poste_source","code"
+"point_ouverture","x","numeric","YES",,"f",,,,,,"poste","id"
+"point_ouverture","y","numeric","YES",,"f",,,,,,"poste","id"
+"point_ouverture","y","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","antenne_de","uuid","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","antenne_de","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","antenne_de","uuid","YES",,"f",,,,,,"poste","id"
+"poste","antenne_de","uuid","YES",,"f",,,,,,"poste_source","code"
+"poste","autre","text","YES",,"f",,,,,,"poste_source","code"
+"poste","autre","text","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","autre","text","YES",,"f",,,,,,"poste","id"
+"poste","autre","text","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","client_mhrv","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"poste","client_mhrv","boolean","NO","false","f",,,,,,"poste_source","code"
+"poste","client_mhrv","boolean","NO","false","f",,,,,,"poste","id"
+"poste","client_mhrv","boolean","NO","false","f",,,,,,"referentiel_type_bloc","code"
+"poste","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"poste","commentaire","text","YES",,"f",,,,,,"poste","id"
+"poste","commentaire","text","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","commentaire","text","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","commune","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","commune","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","commune","character varying","YES",,"f",,,,,,"poste","id"
+"poste","commune","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_type_bloc","code"
+"poste","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"poste","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"poste","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"poste","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","depart","character varying","YES",,"f",,,,,,"poste","id"
+"poste","depart","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","depart_brut","text","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","depart_brut","text","YES",,"f",,,,,,"poste_source","code"
+"poste","depart_brut","text","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","depart_brut","text","YES",,"f",,,,,,"poste","id"
+"poste","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"poste","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_type_bloc","code"
+"poste","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"poste","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"poste","injection_kva","numeric","YES","0","f",,,,,,"referentiel_depart","code"
+"poste","injection_kva","numeric","YES","0","f",,,,,,"poste","id"
+"poste","injection_kva","numeric","YES","0","f",,,,,,"poste_source","code"
+"poste","injection_kva","numeric","YES","0","f",,,,,,"referentiel_type_bloc","code"
+"poste","lat","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","lat","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","lat","numeric","YES",,"f",,,,,,"poste","id"
+"poste","lat","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","layer_dxf","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","layer_dxf","character varying","YES",,"f",,,,,,"poste","id"
+"poste","layer_dxf","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","layer_dxf","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","lng","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","lng","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","lng","numeric","YES",,"f",,,,,,"poste","id"
+"poste","lng","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","nb_clients","integer","YES",,"f",,,,,,"poste_source","code"
+"poste","nb_clients","integer","YES",,"f",,,,,,"poste","id"
+"poste","nb_clients","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","nb_clients","integer","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","nom","character varying","YES",,"f",,,,,,"poste","id"
+"poste","nom","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","nom","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","nom","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","numero","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","numero","character varying","YES",,"f",,,,,,"poste","id"
+"poste","numero","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","numero","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","omt","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"poste","omt","boolean","NO","false","f",,,,,,"poste_source","code"
+"poste","omt","boolean","NO","false","f",,,,,,"referentiel_type_bloc","code"
+"poste","omt","boolean","NO","false","f",,,,,,"poste","id"
+"poste","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"poste","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"poste","poste_source","character varying","NO",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"poste","producteur","boolean","NO","false","f",,,,,,"poste","id"
+"poste","producteur","boolean","NO","false","f",,,,,,"referentiel_depart","code"
+"poste","producteur","boolean","NO","false","f",,,,,,"referentiel_type_bloc","code"
+"poste","producteur","boolean","NO","false","f",,,,,,"poste_source","code"
+"poste","puissance_kva","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","puissance_kva","numeric","YES",,"f",,,,,,"poste","id"
+"poste","puissance_kva","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","puissance_kva","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","puissance_txt","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","puissance_txt","character varying","YES",,"f",,,,,,"poste","id"
+"poste","puissance_txt","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","puissance_txt","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","regime","character varying","YES",,"f",,,,,,"poste","id"
+"poste","regime","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","regime","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","regime","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","rotation_deg","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","rotation_deg","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","rotation_deg","numeric","YES",,"f",,,,,,"poste","id"
+"poste","rotation_deg","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","type_bloc","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","type_bloc","character varying","YES",,"f",,,,,,"poste_source","code"
+"poste","type_bloc","character varying","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","type_bloc","character varying","YES",,"f",,,,,,"poste","id"
+"poste","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"poste","updated_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"poste","updated_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"poste","updated_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_type_bloc","code"
+"poste","x","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","x","numeric","YES",,"f",,,,,,"poste","id"
+"poste","x","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste","x","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","y","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"poste","y","numeric","YES",,"f",,,,,,"poste","id"
+"poste","y","numeric","YES",,"f",,,,,,"referentiel_type_bloc","code"
+"poste","y","numeric","YES",,"f",,,,,,"poste_source","code"
+"poste_source","code","character varying","NO",,"f",,,,,,,
+"poste_source","commune","character varying","YES",,"f",,,,,,,
+"poste_source","created_at","timestamp with time zone","NO","now()","f",,,,,,,
+"poste_source","nom","character varying","NO",,"f",,,,,,,
+"poste_source","tension_kv","numeric","NO","20","f",,,,,,,
+"producteur","actif","boolean","NO","true","f",,,,,,"poste_source","code"
+"producteur","actif","boolean","NO","true","f",,,,,,"poste","id"
+"producteur","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"producteur","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"producteur","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"producteur","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"producteur","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"producteur","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"producteur","puissance_injection","numeric","YES",,"f",,,,,,"poste_source","code"
+"producteur","puissance_injection","numeric","YES",,"f",,,,,,"poste","id"
+"producteur","type","character varying","YES",,"f",,,,,,"poste","id"
+"producteur","type","character varying","YES",,"f",,,,,,"poste_source","code"
+"producteur","x","numeric","YES",,"f",,,,,,"poste","id"
+"producteur","x","numeric","YES",,"f",,,,,,"poste_source","code"
+"producteur","y","numeric","YES",,"f",,,,,,"poste","id"
+"producteur","y","numeric","YES",,"f",,,,,,"poste_source","code"
+"referentiel_depart","actif","boolean","NO","true","f",,,,,,"poste_source","code"
+"referentiel_depart","capacite_nominale_kva","numeric","YES",,"f",,,,,,"poste_source","code"
+"referentiel_depart","code","character varying","NO",,"f",,,,,,"poste_source","code"
+"referentiel_depart","couleur","character varying","NO",,"f",,,,,,"poste_source","code"
+"referentiel_depart","couleur_a_confirmer","boolean","NO","false","f",,,,,,"poste_source","code"
+"referentiel_depart","libelle","character varying","NO",,"f",,,,,,"poste_source","code"
+"referentiel_depart","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"referentiel_type_bloc","code","character varying","NO",,"f",,,,,,,
+"referentiel_type_bloc","famille","character varying","NO",,"f",,,,,,,
+"referentiel_type_bloc","regime","character varying","NO",,"f",,,,,,,
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"ild","id"
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"omt","id"
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","action_recommandee","text","YES",,"f",,,,,,"poste","id"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"ild","id"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"poste","id"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"omt","id"
+"releve_terrain","agent_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"poste","id"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"omt","id"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"ild","id"
+"releve_terrain","commentaire","text","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"ild","id"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"poste","id"
+"releve_terrain","conforme","boolean","YES",,"f",,,,,,"omt","id"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"referentiel_depart","code"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste","id"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"omt","id"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"ild","id"
+"releve_terrain","created_at","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"ild","id"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"poste_source","code"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"referentiel_depart","code"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"poste","id"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"omt","id"
+"releve_terrain","date_releve","date","NO","CURRENT_DATE","f",,,,,,"utilisateur","id"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"ild","id"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"poste","id"
+"releve_terrain","depart","character varying","YES",,"f",,,,,,"omt","id"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"ild","id"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"omt","id"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","etat_constate","character varying","YES",,"f",,,,,,"poste","id"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"ild","id"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"releve_terrain","id","uuid","NO","gen_random_uuid()","f",,,,,,"omt","id"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"omt","id"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"ild","id"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","ild_id","uuid","YES",,"f",,,,,,"poste","id"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"ild","id"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"omt","id"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"poste","id"
+"releve_terrain","latitude","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"ild","id"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"omt","id"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"poste","id"
+"releve_terrain","longitude","numeric","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"ild","id"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"omt","id"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"poste","id"
+"releve_terrain","omt_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"ild","id"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"omt","id"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"poste","id"
+"releve_terrain","photo_url","text","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"omt","id"
+"releve_terrain","poste_id","uuid","YES",,"f",,,,,,"ild","id"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"utilisateur","id"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"ild","id"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"omt","id"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"releve_terrain","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"utilisateur","id"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"poste_source","code"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"referentiel_depart","code"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"poste","id"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"omt","id"
+"releve_terrain","type_releve","character varying","NO","'CONTROLE'::character varying","f",,,,,,"ild","id"
+"rm6","a_verifier","boolean","NO","true","f",,,,,,"poste_source","code"
+"rm6","a_verifier","boolean","NO","true","f",,,,,,"poste","id"
+"rm6","a_verifier","boolean","NO","true","f",,,,,,"referentiel_depart","code"
+"rm6","commande","character varying","YES",,"f",,,,,,"poste","id"
+"rm6","commande","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","commande","character varying","YES",,"f",,,,,,"poste_source","code"
+"rm6","depart","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","depart","character varying","YES",,"f",,,,,,"poste_source","code"
+"rm6","depart","character varying","YES",,"f",,,,,,"poste","id"
+"rm6","etat","character varying","NO","'FERME'::character varying","f",,,,,,"poste","id"
+"rm6","etat","character varying","NO","'FERME'::character varying","f",,,,,,"poste_source","code"
+"rm6","etat","character varying","NO","'FERME'::character varying","f",,,,,,"referentiel_depart","code"
+"rm6","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"rm6","id","uuid","NO","gen_random_uuid()","f",,,,,,"referentiel_depart","code"
+"rm6","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste","id"
+"rm6","label_detecte","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","label_detecte","character varying","YES",,"f",,,,,,"poste_source","code"
+"rm6","label_detecte","character varying","YES",,"f",,,,,,"poste","id"
+"rm6","nb_cellules","integer","YES",,"f",,,,,,"poste","id"
+"rm6","nb_cellules","integer","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","nb_cellules","integer","YES",,"f",,,,,,"poste_source","code"
+"rm6","nom","character varying","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","nom","character varying","YES",,"f",,,,,,"poste_source","code"
+"rm6","nom","character varying","YES",,"f",,,,,,"poste","id"
+"rm6","poste_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"rm6","poste_id","uuid","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","poste_id","uuid","YES",,"f",,,,,,"poste","id"
+"rm6","poste_source","character varying","NO",,"f",,,,,,"referentiel_depart","code"
+"rm6","poste_source","character varying","NO",,"f",,,,,,"poste","id"
+"rm6","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"rm6","x","numeric","YES",,"f",,,,,,"poste","id"
+"rm6","x","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","x","numeric","YES",,"f",,,,,,"poste_source","code"
+"rm6","y","numeric","YES",,"f",,,,,,"poste","id"
+"rm6","y","numeric","YES",,"f",,,,,,"referentiel_depart","code"
+"rm6","y","numeric","YES",,"f",,,,,,"poste_source","code"
+"test_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"fo_interface","id"
+"test_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"test_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"fibre_segment","id"
+"test_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"omt","id"
+"test_interface","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"test_interface","date_test","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"test_interface","date_test","timestamp with time zone","NO","now()","f",,,,,,"fibre_segment","id"
+"test_interface","date_test","timestamp with time zone","NO","now()","f",,,,,,"fo_interface","id"
+"test_interface","date_test","timestamp with time zone","NO","now()","f",,,,,,"omt","id"
+"test_interface","date_test","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"test_interface","details","text","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","details","text","YES",,"f",,,,,,"poste_source","code"
+"test_interface","details","text","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","details","text","YES",,"f",,,,,,"omt","id"
+"test_interface","details","text","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","fibre_segment_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","fibre_segment_id","uuid","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","fibre_segment_id","uuid","YES",,"f",,,,,,"omt","id"
+"test_interface","fibre_segment_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"test_interface","fibre_segment_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","fo_interface_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","fo_interface_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","fo_interface_id","uuid","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","fo_interface_id","uuid","YES",,"f",,,,,,"omt","id"
+"test_interface","fo_interface_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"test_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"fo_interface","id"
+"test_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"test_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"omt","id"
+"test_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"test_interface","id","uuid","NO","gen_random_uuid()","f",,,,,,"fibre_segment","id"
+"test_interface","omt_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","omt_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"test_interface","omt_id","uuid","YES",,"f",,,,,,"omt","id"
+"test_interface","omt_id","uuid","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","omt_id","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","poste_source","character varying","NO",,"f",,,,,,"fo_interface","id"
+"test_interface","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"test_interface","poste_source","character varying","NO",,"f",,,,,,"omt","id"
+"test_interface","poste_source","character varying","NO",,"f",,,,,,"utilisateur","id"
+"test_interface","poste_source","character varying","NO",,"f",,,,,,"fibre_segment","id"
+"test_interface","realise_par","uuid","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","realise_par","uuid","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","realise_par","uuid","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","realise_par","uuid","YES",,"f",,,,,,"omt","id"
+"test_interface","realise_par","uuid","YES",,"f",,,,,,"poste_source","code"
+"test_interface","resultat","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"poste_source","code"
+"test_interface","resultat","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"fo_interface","id"
+"test_interface","resultat","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"utilisateur","id"
+"test_interface","resultat","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"omt","id"
+"test_interface","resultat","character varying","NO","'A_FAIRE'::character varying","f",,,,,,"fibre_segment","id"
+"test_interface","temps_reponse_ms","integer","YES",,"f",,,,,,"utilisateur","id"
+"test_interface","temps_reponse_ms","integer","YES",,"f",,,,,,"fibre_segment","id"
+"test_interface","temps_reponse_ms","integer","YES",,"f",,,,,,"fo_interface","id"
+"test_interface","temps_reponse_ms","integer","YES",,"f",,,,,,"omt","id"
+"test_interface","temps_reponse_ms","integer","YES",,"f",,,,,,"poste_source","code"
+"test_interface","type_test","character varying","NO",,"f",,,,,,"omt","id"
+"test_interface","type_test","character varying","NO",,"f",,,,,,"poste_source","code"
+"test_interface","type_test","character varying","NO",,"f",,,,,,"fo_interface","id"
+"test_interface","type_test","character varying","NO",,"f",,,,,,"fibre_segment","id"
+"test_interface","type_test","character varying","NO",,"f",,,,,,"utilisateur","id"
+"utilisateur","email","character varying","YES",,"f",,,,,,,
+"utilisateur","id","uuid","NO","gen_random_uuid()","f",,,,,,,
+"utilisateur","nom","character varying","YES",,"f",,,,,,,
+"utilisateur","role","character varying","YES",,"f",,,,,,,
+"v_anomalie_depart_inconnu","autre","text","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","client_mhrv","boolean","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","commentaire","text","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","depart","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","depart_brut","text","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","id","uuid","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","injection_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","lat","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","layer_dxf","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","lng","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","nb_clients","integer","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","nom","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","numero","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","producteur","boolean","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","puissance_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","puissance_txt","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","regime","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","rotation_deg","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","type_bloc","character varying","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","x","numeric","YES",,,,,,,,,
+"v_anomalie_depart_inconnu","y","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","autre","text","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","client_mhrv","boolean","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","commentaire","text","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","depart","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","depart_brut","text","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","id","uuid","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","injection_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","lat","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","layer_dxf","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","lng","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","nb_clients","integer","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","nom","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","numero","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","producteur","boolean","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","puissance_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","puissance_txt","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","regime","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","rotation_deg","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","type_bloc","character varying","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","x","numeric","YES",,,,,,,,,
+"v_anomalie_depart_layer_mismatch","y","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","autre","text","YES",,,,,,,,,
+"v_anomalie_depart_vide","client_mhrv","boolean","YES",,,,,,,,,
+"v_anomalie_depart_vide","commentaire","text","YES",,,,,,,,,
+"v_anomalie_depart_vide","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_vide","depart","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","depart_brut","text","YES",,,,,,,,,
+"v_anomalie_depart_vide","id","uuid","YES",,,,,,,,,
+"v_anomalie_depart_vide","injection_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","lat","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","layer_dxf","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","lng","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","nb_clients","integer","YES",,,,,,,,,
+"v_anomalie_depart_vide","nom","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","numero","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","producteur","boolean","YES",,,,,,,,,
+"v_anomalie_depart_vide","puissance_kva","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","puissance_txt","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","regime","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","rotation_deg","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","type_bloc","character varying","YES",,,,,,,,,
+"v_anomalie_depart_vide","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_depart_vide","x","numeric","YES",,,,,,,,,
+"v_anomalie_depart_vide","y","numeric","YES",,,,,,,,,
+"v_anomalie_numero_duplique","nb","bigint","YES",,,,,,,,,
+"v_anomalie_numero_duplique","noms","ARRAY","YES",,,,,,,,,
+"v_anomalie_numero_duplique","numero","character varying","YES",,,,,,,,,
+"v_anomalie_numero_duplique","poste_ids","ARRAY","YES",,,,,,,,,
+"v_anomalie_numero_duplique","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","autre","text","YES",,,,,,,,,
+"v_anomalie_numero_vide","client_mhrv","boolean","YES",,,,,,,,,
+"v_anomalie_numero_vide","commentaire","text","YES",,,,,,,,,
+"v_anomalie_numero_vide","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_numero_vide","depart","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","depart_brut","text","YES",,,,,,,,,
+"v_anomalie_numero_vide","id","uuid","YES",,,,,,,,,
+"v_anomalie_numero_vide","injection_kva","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","lat","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","layer_dxf","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","lng","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","nb_clients","integer","YES",,,,,,,,,
+"v_anomalie_numero_vide","nom","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","numero","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","producteur","boolean","YES",,,,,,,,,
+"v_anomalie_numero_vide","puissance_kva","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","puissance_txt","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","regime","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","rotation_deg","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","type_bloc","character varying","YES",,,,,,,,,
+"v_anomalie_numero_vide","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_numero_vide","x","numeric","YES",,,,,,,,,
+"v_anomalie_numero_vide","y","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","autre","text","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","client_mhrv","boolean","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","commentaire","text","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","depart","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","depart_brut","text","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","id","uuid","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","injection_kva","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","lat","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","layer_dxf","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","lng","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","nb_clients","integer","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","nom","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","numero","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","poste_source","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","producteur","boolean","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","puissance_kva","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","puissance_txt","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","regime","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","rotation_deg","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","type_bloc","character varying","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","x","numeric","YES",,,,,,,,,
+"v_anomalie_puissance_invalide","y","numeric","YES",,,,,,,,,
+"v_anomalies","niveau","text","YES",,,,,,,,,
+"v_anomalies","nom","character varying","YES",,,,,,,,,
+"v_anomalies","numero","character varying","YES",,,,,,,,,
+"v_anomalies","poste_id","uuid","YES",,,,,,,,,
+"v_anomalies","poste_source","character varying","YES",,,,,,,,,
+"v_anomalies","type_anomalie","text","YES",,,,,,,,,
+"v_cumul_depart","couleur","character varying","YES",,,,,,,,,
+"v_cumul_depart","depart","character varying","YES",,,,,,,,,
+"v_cumul_depart","libelle","character varying","YES",,,,,,,,,
+"v_cumul_depart","nb_clients","bigint","YES",,,,,,,,,
+"v_cumul_depart","nb_postes","bigint","YES",,,,,,,,,
+"v_cumul_depart","poste_source","character varying","YES",,,,,,,,,
+"v_cumul_depart","puissance_kva","numeric","YES",,,,,,,,,
+"v_depart_drift","delta_kva","numeric","YES",,,,,,,,,
+"v_depart_drift","delta_pct","numeric","YES",,,,,,,,,
+"v_depart_drift","depart","character varying","YES",,,,,,,,,
+"v_depart_drift","libelle","character varying","YES",,,,,,,,,
+"v_depart_drift","nb_postes","bigint","YES",,,,,,,,,
+"v_depart_drift","poste_source","character varying","YES",,,,,,,,,
+"v_depart_drift","puissance_enregistree_kva","numeric","YES",,,,,,,,,
+"v_depart_drift","puissance_recalculee_kva","numeric","YES",,,,,,,,,
+"v_depart_topologie","bout_bouclage","boolean","YES",,,,,,,,,
+"v_depart_topologie","commentaire","text","YES",,,,,,,,,
+"v_depart_topologie","commune","character varying","YES",,,,,,,,,
+"v_depart_topologie","depart","character varying","YES",,,,,,,,,
+"v_depart_topologie","depart_couleur","character varying","YES",,,,,,,,,
+"v_depart_topologie","depart_libelle","character varying","YES",,,,,,,,,
+"v_depart_topologie","extremite_reseau","boolean","YES",,,,,,,,,
+"v_depart_topologie","id","uuid","YES",,,,,,,,,
+"v_depart_topologie","ild_etat","character varying","YES",,,,,,,,,
+"v_depart_topologie","ild_id","uuid","YES",,,,,,,,,
+"v_depart_topologie","nature_lien","character varying","YES",,,,,,,,,
+"v_depart_topologie","nb_clients","integer","YES",,,,,,,,,
+"v_depart_topologie","niveau_branche","integer","YES",,,,,,,,,
+"v_depart_topologie","nom","character varying","YES",,,,,,,,,
+"v_depart_topologie","numero","character varying","YES",,,,,,,,,
+"v_depart_topologie","omt","boolean","YES",,,,,,,,,
+"v_depart_topologie","ordre_principal","integer","YES",,,,,,,,,
+"v_depart_topologie","origine_validation","character varying","YES",,,,,,,,,
+"v_depart_topologie","parent_poste_id","uuid","YES",,,,,,,,,
+"v_depart_topologie","poste_id","uuid","YES",,,,,,,,,
+"v_depart_topologie","poste_source","character varying","YES",,,,,,,,,
+"v_depart_topologie","poste_source_nom","character varying","YES",,,,,,,,,
+"v_depart_topologie","puissance_kva","numeric","YES",,,,,,,,,
+"v_depart_topologie","rang_branche","integer","YES",,,,,,,,,
+"v_depart_topologie","regime","character varying","YES",,,,,,,,,
+"v_depart_topologie","type_bloc","character varying","YES",,,,,,,,,
+"v_depart_topologie","validation_statut","character varying","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","depart","character varying","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","depart_libelle","character varying","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_antennes","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_auto","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_bouclages","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_extremites","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_postes","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","nb_tronc","bigint","YES",,,,,,,,,
+"v_depart_topologie_seed_audit","poste_source","character varying","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","departs","ARRAY","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","nb_sources","bigint","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","noms","ARRAY","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","numero","character varying","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","poste_ids","ARRAY","YES",,,,,,,,,
+"v_jonction_inter_source_candidate","postes_source","ARRAY","YES",,,,,,,,,
+"v_kpi_depart","capacite_nominale_kva","numeric","YES",,,,,,,,,
+"v_kpi_depart","couleur","character varying","YES",,,,,,,,,
+"v_kpi_depart","depart","character varying","YES",,,,,,,,,
+"v_kpi_depart","libelle","character varying","YES",,,,,,,,,
+"v_kpi_depart","nb_clients","bigint","YES",,,,,,,,,
+"v_kpi_depart","nb_postes","bigint","YES",,,,,,,,,
+"v_kpi_depart","poste_source","character varying","YES",,,,,,,,,
+"v_kpi_depart","puissance_kva","numeric","YES",,,,,,,,,
+"v_kpi_depart","taux_charge_pct","numeric","YES",,,,,,,,,
+"v_kpi_fo_avancement","longueur_active_m","numeric","YES",,,,,,,,,
+"v_kpi_fo_avancement","longueur_totale_m","numeric","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_actifs","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_en_cours","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_poses","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_prevus","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_recette","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","nb_segments_total","bigint","YES",,,,,,,,,
+"v_kpi_fo_avancement","pct_mis_en_service","numeric","YES",,,,,,,,,
+"v_kpi_fo_avancement","poste_source","character varying","YES",,,,,,,,,
+"v_kpi_poste_source","nb_ab","bigint","YES",,,,,,,,,
+"v_kpi_poste_source","nb_clients","bigint","YES",,,,,,,,,
+"v_kpi_poste_source","nb_dp","bigint","YES",,,,,,,,,
+"v_kpi_poste_source","nb_postes","bigint","YES",,,,,,,,,
+"v_kpi_poste_source","nb_producteurs","bigint","YES",,,,,,,,,
+"v_kpi_poste_source","nom","character varying","YES",,,,,,,,,
+"v_kpi_poste_source","poste_source","character varying","YES",,,,,,,,,
+"v_kpi_poste_source","puissance_kva","numeric","YES",,,,,,,,,
+"v_omt_controle","depart","character varying","YES",,,,,,,,,
+"v_omt_controle","depart_libelle","character varying","YES",,,,,,,,,
+"v_omt_controle","etat_manoeuvre","character varying","YES",,,,,,,,,
+"v_omt_controle","etat_telecom","character varying","YES",,,,,,,,,
+"v_omt_controle","fibre_nom","character varying","YES",,,,,,,,,
+"v_omt_controle","fibre_statut","character varying","YES",,,,,,,,,
+"v_omt_controle","id","uuid","YES",,,,,,,,,
+"v_omt_controle","ild_etat","character varying","YES",,,,,,,,,
+"v_omt_controle","interface_statut","character varying","YES",,,,,,,,,
+"v_omt_controle","medium_comm","character varying","YES",,,,,,,,,
+"v_omt_controle","omt_test","boolean","YES",,,,,,,,,
+"v_omt_controle","poste_nom","character varying","YES",,,,,,,,,
+"v_omt_controle","poste_numero","character varying","YES",,,,,,,,,
+"v_omt_controle","poste_source","character varying","YES",,,,,,,,,
+"v_omt_controle","poste_source_nom","character varying","YES",,,,,,,,,
+"v_omt_controle","protocole","character varying","YES",,,,,,,,,
+"v_omt_controle","type_equipement","character varying","YES",,,,,,,,,
+"v_omt_controle","type_organe","character varying","YES",,,,,,,,,
+"v_poste_source_omt_kpi","nb_interfaces","bigint","YES",,,,,,,,,
+"v_poste_source_omt_kpi","nb_omt","bigint","YES",,,,,,,,,
+"v_poste_source_omt_kpi","nb_segments_fo","bigint","YES",,,,,,,,,
+"v_poste_source_omt_kpi","nom","character varying","YES",,,,,,,,,
+"v_poste_source_omt_kpi","omt_injoignables","bigint","YES",,,,,,,,,
+"v_poste_source_omt_kpi","omt_ok","bigint","YES",,,,,,,,,
+"v_poste_source_omt_kpi","poste_source","character varying","YES",,,,,,,,,
+"v_poste_source_omt_kpi","segments_actifs","bigint","YES",,,,,,,,,
+"v_postes_metier","autre","text","YES",,,,,,,,,
+"v_postes_metier","client_mhrv","boolean","YES",,,,,,,,,
+"v_postes_metier","commentaire","text","YES",,,,,,,,,
+"v_postes_metier","created_at","timestamp with time zone","YES",,,,,,,,,
+"v_postes_metier","depart","character varying","YES",,,,,,,,,
+"v_postes_metier","depart_brut","text","YES",,,,,,,,,
+"v_postes_metier","depart_couleur","character varying","YES",,,,,,,,,
+"v_postes_metier","depart_libelle","character varying","YES",,,,,,,,,
+"v_postes_metier","depart_poste_source_attendu","character varying","YES",,,,,,,,,
+"v_postes_metier","famille_bloc","character varying","YES",,,,,,,,,
+"v_postes_metier","id","uuid","YES",,,,,,,,,
+"v_postes_metier","injection_kva","numeric","YES",,,,,,,,,
+"v_postes_metier","lat","numeric","YES",,,,,,,,,
+"v_postes_metier","layer_dxf","character varying","YES",,,,,,,,,
+"v_postes_metier","lng","numeric","YES",,,,,,,,,
+"v_postes_metier","nb_clients","integer","YES",,,,,,,,,
+"v_postes_metier","nom","character varying","YES",,,,,,,,,
+"v_postes_metier","numero","character varying","YES",,,,,,,,,
+"v_postes_metier","poste_source","character varying","YES",,,,,,,,,
+"v_postes_metier","producteur","boolean","YES",,,,,,,,,
+"v_postes_metier","puissance_kva","numeric","YES",,,,,,,,,
+"v_postes_metier","puissance_txt","character varying","YES",,,,,,,,,
+"v_postes_metier","regime","character varying","YES",,,,,,,,,
+"v_postes_metier","regime_referentiel","character varying","YES",,,,,,,,,
+"v_postes_metier","rotation_deg","numeric","YES",,,,,,,,,
+"v_postes_metier","type_bloc","character varying","YES",,,,,,,,,
+"v_postes_metier","updated_at","timestamp with time zone","YES",,,,,,,,,
+"v_postes_metier","x","numeric","YES",,,,,,,,,
+"v_postes_metier","y","numeric","YES",,,,,,,,,
+"visite_vps","compte_rendu","text","YES",,"f",,,,,,"poste_source","code"
+"visite_vps","compte_rendu","text","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","conforme","boolean","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","conforme","boolean","YES",,"f",,,,,,"poste_source","code"
+"visite_vps","created_at","timestamp with time zone","NO","now()","f",,,,,,"utilisateur","id"
+"visite_vps","created_at","timestamp with time zone","NO","now()","f",,,,,,"poste_source","code"
+"visite_vps","date_visite","date","NO",,"f",,,,,,"utilisateur","id"
+"visite_vps","date_visite","date","NO",,"f",,,,,,"poste_source","code"
+"visite_vps","id","uuid","NO","gen_random_uuid()","f",,,,,,"utilisateur","id"
+"visite_vps","id","uuid","NO","gen_random_uuid()","f",,,,,,"poste_source","code"
+"visite_vps","poste_source","character varying","NO",,"f",,,,,,"poste_source","code"
+"visite_vps","poste_source","character varying","NO",,"f",,,,,,"utilisateur","id"
+"visite_vps","prestataire","character varying","YES",,"f",,,,,,"poste_source","code"
+"visite_vps","prestataire","character varying","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","responsable_id","uuid","YES",,"f",,,,,,"poste_source","code"
+"visite_vps","responsable_id","uuid","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","suites_a_donner","text","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","suites_a_donner","text","YES",,"f",,,,,,"poste_source","code"
+"visite_vps","type_visite","character varying","NO",,"f",,,,,,"utilisateur","id"
+"visite_vps","type_visite","character varying","NO",,"f",,,,,,"poste_source","code"
+"visite_vps","zone_concernee","character varying","YES",,"f",,,,,,"utilisateur","id"
+"visite_vps","zone_concernee","character varying","YES",,"f",,,,,,"poste_source","code"
